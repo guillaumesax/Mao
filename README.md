@@ -1,11 +1,21 @@
-<div align="center">
+---
+title: Fiche Eleve House Music
+emoji: 🎹
+colorFrom: indigo
+colorTo: pink
+sdk: static
+pinned: false
+app_file: dist/index.html
+---
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Fiche Élève - House Music
 
-  <h1>Built with AI Studio</h2>
+Une application interactive pour apprendre à composer de la House Music sur Ableton Live, assistée par l'IA Gemini.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Configuration
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Pour que l'application fonctionne, vous devez ajouter votre clé API Gemini dans les secrets de l'espace Hugging Face :
 
-</div>
+1. Allez dans **Settings**.
+2. Section **Variables and secrets**.
+3. Ajoutez un nouveau secret nommé `API_KEY` avec votre clé Google GenAI.
